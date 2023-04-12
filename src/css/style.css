@@ -111,6 +111,9 @@ html{
     position: absolute;
     z-index: -1;
     filter: brightness(70%);
+
+    opacity: 0;
+    transition: 0.3s ease-in-out;
 }
 
 .conteudo-principal .paineis .projeto1{
@@ -123,6 +126,10 @@ html{
 
 .conteudo-principal .paineis .projeto3{
     background-image: url('../imagens/painel3.jpg');
+}
+
+.conteudo-principal .paineis .imagem-painel.mostrar {
+    opacity: 1;
 }
 
 .conteudo-principal .paineis .titulo {
@@ -148,6 +155,10 @@ html{
 
 .conteudo-principal .paineis .seta.btn-avancar {
     right: 20px;
+}
+
+.seta-opaca {
+    opacity: 20%;
 }
 
 @media (max-width:900px){
